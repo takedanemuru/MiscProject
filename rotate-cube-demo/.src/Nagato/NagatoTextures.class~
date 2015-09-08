@@ -1,0 +1,31 @@
+' Gambas class file
+
+Private $textures As New Integer[1]
+
+Private Sub initializeTexture(argImagePath As String)
+    
+    Dim yukiImage As Image = Image.Load(argImagePath)
+    
+    Gl.Enable(gl.TEXTURE_2D) 
+    $textures = Gl.GenTextures(1)
+    Gl.BindTexture(Gl.TEXTURE_2D, $textures[0])
+    Gl.TexImage2D(yukiImage)
+    Glu.Build2DMipmaps(yukiImage)
+    Gl.TexParameteri(Gl.TEXTURE_2D, Gl.TEXTURE_MIN_FILTER, Gl.LINEAR_MIPMAP_NEAREST)
+    Gl.TexParameteri(Gl.TEXTURE_2D, Gl.TEXTURE_MAG_FILTER, Gl.LINEAR)
+    Gl.Enable(gl.TEXTURE_2D)
+    Gl.ShadeModel(gl.SMOOTH)
+    
+End
+
+Public Sub Select(argNumber As Integer)
+    
+    Gl.BindTexture(gl.TEXTURE_2D, $textures[argNumber])
+    
+End
+
+Public Sub Initialize(argTexturePath As String)
+    
+    initializeTexture(argTexturePath)
+    
+End

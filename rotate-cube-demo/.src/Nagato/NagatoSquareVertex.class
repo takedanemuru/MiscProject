@@ -1,0 +1,42 @@
+' Gambas class file
+
+Create Static
+
+Property Read TopLeft As NagatoAxis2D
+Property Read TopRight As NagatoAxis2D
+Property Read BottomLeft As NagatoAxis2D
+Property Read BottomRight As NagatoAxis2D
+
+Private $unit As Integer = 1
+
+Private Function TopLeft_Read() As NagatoAxis2D
+
+    Dim yukiAxis2D As New NagatoAxis2D(0, 0)
+
+    Return yukiAxis2D
+
+End
+
+Private Function TopRight_Read() As NagatoAxis2D
+
+    Dim yukiAxis2D As New NagatoAxis2D($unit, 0)
+
+    Return yukiAxis2D
+
+End
+
+Private Function BottomLeft_Read() As NagatoAxis2D
+
+    Dim yukiAxis2D As New NagatoAxis2D(0, $unit)
+
+    Return yukiAxis2D
+
+End
+
+Private Function BottomRight_Read() As NagatoAxis2D
+
+    Dim yukiAxis2D As New NagatoAxis2D($unit, $unit)
+
+    Return yukiAxis2D
+
+End

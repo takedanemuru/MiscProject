@@ -1,0 +1,24 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.8.1
+Title=nyancat
+Startup=Kyon
+Icon=Picture/piq_16586_400x400.png
+Version=0.0.2
+Description="nyancat !!"
+Authors="takeda.nemuru@yandex.com"
+TabSize=4
+Language=ja
+Maintainer=takeda.nemuru
+Vendor=Integrated Data Thought Entity
+Address=takeda.nemuru@yandex.com
+Url=http://takedanemuru.github.io/
+License=S.O.S. License
+Prefix=1
+PackageName=integrated data thought entity-nyancat-0.0.2
+PackageVersion=2
+CreateEachDirectory=1
+Packager=1
+Systems=ubuntu
+Menus=ubuntu:"Games/Toys"
+Categories=ubuntu:"ConsoleOnly"
+Groups=ubuntu:"games"

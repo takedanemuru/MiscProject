@@ -1,0 +1,58 @@
+' Gambas class file
+
+Private $textures As New NagatoTextures
+Private $rotation As NagatoCubeRotation
+
+Private Sub setTextureCoordinate(argAxis2D As NagatoAxis2D)
+    
+    Gl.TexCoordf(argAxis2D.X, argAxis2D.Y)
+    
+End
+
+Private Sub setSurfaceVertex(argAxis As NagatoAxis)
+    
+    Gl.Vertexf(argAxis.X, argAxis.Y, argAxis.Z)
+    
+End
+
+Private Sub drawSurface(argSurface As NagatoCubeSurface)
+    
+    Dim yukiProperties As String[] = ["TopLeft", "TopRight", "BottomRight", "BottomLeft"]
+    Dim yukiIndex As Integer
+    
+    For yukiIndex = 0 To 3
+        setTextureCoordinate(Object.GetProperty(NagatoSquareVertex, yukiProperties[yukiIndex]))
+        setSurfaceVertex(Object.GetProperty(argSurface, yukiProperties[yukiIndex]))
+    Next
+
+End
+
+Private Sub drawsurfaces()
+    
+    drawSurface(NagatoCubeVertex.Front)
+    drawSurface(NagatoCubeVertex.Back)
+    drawSurface(NagatoCubeVertex.Top)
+    drawSurface(NagatoCubeVertex.Bottom)
+    drawSurface(NagatoCubeVertex.Left)
+    drawSurface(NagatoCubeVertex.Right)
+    
+End
+
+Public Sub Draw()
+    
+    $rotation.Rotate()
+    
+    Gl.Begin(Gl.QUADS)
+        'Gl.Colorf(1.0, 1.0, 1.0, 0.5)
+        $textures.Select(0)
+        drawsurfaces()
+    Gl.End()
+    
+End
+
+Public Sub Initialize()
+    
+    $textures.Initialize("Pictures/headphones.png")
+    $rotation = New NagatoCubeRotation
+    
+End

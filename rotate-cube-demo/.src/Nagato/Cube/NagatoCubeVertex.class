@@ -1,0 +1,67 @@
+' Gambas class file
+
+Create Static
+
+Property Read Front As NagatoCubeSurface
+Property Read Back As NagatoCubeSurface
+Property Read Top As NagatoCubeSurface
+Property Read Bottom As NagatoCubeSurface
+Property Read Left As NagatoCubeSurface
+Property Read Right As NagatoCubeSurface
+
+Private $frontTopLeft As New NagatoAxis(-1, 1, 1)
+Private $frontTopRight As New NagatoAxis(1, 1, 1)
+Private $frontBottomRight As New NagatoAxis(1, -1, 1)
+Private $frontBottomLeft As New NagatoAxis(-1, -1, 1)
+Private $backTopLeft As New NagatoAxis(-1, 1, -1)
+Private $backTopRight As New NagatoAxis(1, 1, -1)
+Private $backBottomRight As New NagatoAxis(1, -1, -1)
+Private $backBottomLeft As New NagatoAxis(-1, -1, -1)
+
+Private Function Front_Read() As NagatoCubeSurface
+
+    Dim yukiNagatoSurface As New NagatoCubeSurface($frontTopLeft, $frontTopRight, $frontBottomRight, $frontBottomLeft)
+
+    Return yukiNagatoSurface
+
+End
+
+Private Function Back_Read() As NagatoCubeSurface
+
+    Dim yukiNagatoSurface As New NagatoCubeSurface($backTopLeft, $backTopRight, $backBottomRight, $backBottomLeft)
+
+    Return yukiNagatoSurface
+
+End
+
+Private Function Top_Read() As NagatoCubeSurface
+
+    Dim yukiNagatoSurface As New NagatoCubeSurface($backTopLeft, $backTopRight, $frontTopRight, $frontTopLeft)
+
+    Return yukiNagatoSurface
+
+End
+
+Private Function Bottom_Read() As NagatoCubeSurface
+
+    Dim yukiNagatoSurface As New NagatoCubeSurface($backBottomLeft, $backBottomRight, $frontBottomRight, $frontBottomLeft)
+
+    Return yukiNagatoSurface
+
+End
+
+Private Function Left_Read() As NagatoCubeSurface
+
+    Dim yukiNagatoSurface As New NagatoCubeSurface($backTopLeft, $frontTopLeft, $frontBottomLeft, $backBottomLeft)
+
+    Return yukiNagatoSurface
+
+End
+
+Private Function Right_Read() As NagatoCubeSurface
+
+    Dim yukiNagatoSurface As New NagatoCubeSurface($backTopRight, $frontTopRight, $frontBottomRight, $backBottomRight)
+
+    Return yukiNagatoSurface
+
+End

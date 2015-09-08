@@ -1,0 +1,57 @@
+' Gambas class file
+
+'To set up opengl window in Gambas choose New Project -> SDL Application
+' mark OpenGL Programming in Settings, give it a name and that 's it.
+
+Public _$screen As New Window(True) As "Screen"
+
+Public Sub _Initialize()
+    
+    
+    
+End
+
+Public Sub Main()
+
+    With Me._$screen
+        .Text = "rotate-cube"
+        .Width = 640
+        .Height = 480
+        ' .FullScreen = True
+        .Show()
+    End With
+
+    Me._Initialize()
+
+End
+
+Public Sub Screen_Open()
+
+    Gl.ClearDepth(100.0)                'Enables Clearing Of The Depth Buffer
+    gl.ClearColor(0.0, 0.0, 0.0, 0.0)   'This Will Clear The Background Color To Black
+    gl.DepthFunc(gl.LESS)            'The Type Of Depth Test To Do
+    gl.Enable(gl.DEPTH_TEST)         'Enables Depth Testing
+    gl.ShadeModel(gl.SMOOTH)         'Enables Smooth Color Shading
+    gl.MatrixMode(gl.PROJECTION)
+    gl.LoadIdentity()                     'Reset The Projection Matrix
+    glu.Perspective(45.0, Me._$screen.Width / Me._$screen.Height, 0.1, 100.0)   'Calculate The Aspect Ratio Of The Window
+    gl.MatrixMode(gl.MODELVIEW)
+
+End
+
+Public Sub Screen_resize()
+
+    Gl.Viewport(0, 0, Me._$screen.Width, Me._$screen.Height)
+    Gl.MatrixMode(Gl.PROJECTION)
+    Gl.LoadIdentity()                     'Reset The Projection Matrix
+    glu.Perspective(45.0, Me._$screen.Width / Me._$screen.Height, 0.1, 100.0)   'Calculate The Aspect Ratio Of The Window
+    Gl.MatrixMode(Gl.MODELVIEW)
+
+End
+
+Public Sub Screen_keyPress()
+
+    If (key.code = key.F1) Then Me._$screen.FullScreen = Not Me._$screen.FullScreen
+    If (key.Code = key.Esc) Then Me._$screen.Close()
+
+End

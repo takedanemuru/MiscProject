@@ -1,0 +1,28 @@
+' Gambas class file
+
+Inherits NagatoExample
+
+Private $cube As New NagatoCube
+
+Public Sub _Initialize()
+
+    $cube.Initialize()
+
+    Gl.ClearColor(0.3, 0.0, 0.9, 0.5)               ' Purple
+    Gl.ClearDepth(1.0)                              ' Depth Buffer Setup
+    Gl.Enable(gl.DEPTH_TEST)                     ' Enables Depth Testing
+    Gl.DepthFunc(gl.LEQUAL)                      ' The Type OF Depth Testing TO DO
+    
+    Gl.Hint(gl.PERSPECTIVE_CORRECTION_HINT, Gl.NICEST)      ' Really Nice Perspective Calculations
+
+End
+
+Public Sub Screen_draw()
+
+    Gl.Clear(gl.COLOR_BUFFER_BIT Or gl.DEPTH_BUFFER_BIT)         ' Clear Screen AND Depth Buffer
+    Gl.LoadIdentity()         ' Reset The Current Matrix
+    Gl.Translatef(0.0, 0.0, -6)         ' MOVE Into The Screen 5 Units
+
+    $cube.Draw()
+
+End

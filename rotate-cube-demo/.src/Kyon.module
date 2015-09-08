@@ -1,0 +1,12 @@
+' Gambas module file
+
+Public Title As String
+
+Public Sub Main()
+
+    Dim yukiObject As Object
+
+    yukiObject = New NagatoExample6
+    yukiObject.Main()
+
+End

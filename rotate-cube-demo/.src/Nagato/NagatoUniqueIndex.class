@@ -1,0 +1,13 @@
+' Gambas class file
+
+Property Read Index As Integer
+
+Private $index As Integer = -1
+
+Private Function Index_Read() As Integer
+
+    Inc $index
+    
+    Return $index
+
+End

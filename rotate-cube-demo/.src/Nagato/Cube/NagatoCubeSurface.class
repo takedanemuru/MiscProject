@@ -1,0 +1,48 @@
+' Gambas class file
+
+Property Read TopLeft As NagatoAxis
+Property Read TopRight As NagatoAxis
+Property Read BottomRight As NagatoAxis
+Property Read BottomLeft As NagatoAxis
+
+Private $topLeft As NagatoAxis
+Private $topRight As NagatoAxis
+Private $bottomRight As NagatoAxis
+Private $bottomLeft As NagatoAxis
+
+Public Sub _new(...)
+    
+    Dim yukiIndex As Integer
+    
+    For yukiIndex = 0 To Param.Max
+        $topLeft = Param[0]
+        $topRight = Param[1]
+        $bottomRight = Param[2]
+        $bottomLeft = Param[3]
+    Next
+    
+End
+
+Private Function TopLeft_Read() As NagatoAxis
+
+    Return $topLeft
+
+End
+
+Private Function TopRight_Read() As NagatoAxis
+
+    Return $topRight
+
+End
+
+Private Function BottomRight_Read() As NagatoAxis
+
+    Return $bottomRight
+
+End
+
+Private Function BottomLeft_Read() As NagatoAxis
+
+    Return $bottomLeft
+
+End

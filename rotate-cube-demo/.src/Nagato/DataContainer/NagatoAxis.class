@@ -1,0 +1,53 @@
+' Gambas class file
+
+Property X As Float
+Property Y As Float
+Property Z As Float
+
+Private $x As Float
+Private $y As Float
+Private $z As Float
+
+Public Sub _new(argX As Float, argY As Float, argZ As Float)
+    
+    $x = argX
+    $y = argY
+    $z = argZ
+    
+End
+
+Private Function X_Read() As Float
+
+    Return $x
+
+End
+
+Private Sub X_Write(Value As Float)
+
+    $x = Value
+
+End
+
+Private Function Y_Read() As Float
+
+    Return $y
+
+End
+
+Private Sub Y_Write(Value As Float)
+
+    $y = Value
+
+End
+
+Private Function Z_Read() As Float
+
+    Return $z
+
+End
+
+Private Sub Z_Write(Value As Float)
+
+    $z = Value
+
+End

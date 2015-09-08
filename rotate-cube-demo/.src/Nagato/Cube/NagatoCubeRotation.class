@@ -1,0 +1,27 @@
+' Gambas class file
+
+Private $axis As New NagatoAxis(0, 0, 0) 
+Private $rotationSpeed As New NagatoAxis(0.8, 0.6, 1)
+
+Private Sub shift()
+    
+    $axis.X += $rotationSpeed.X
+    $axis.Y += $rotationSpeed.Y
+    $axis.Z += $rotationSpeed.Z
+    
+End
+
+Private Sub _rotate()
+    
+    Gl.Rotatef($axis.X, 1.0, 0.0, 0.0)
+    Gl.Rotatef($axis.Y, 0.0, 1.0, 0.0)
+    Gl.Rotatef($axis.Z, 0.0, 0.0, 1.0)
+    
+End
+
+Public Sub Rotate()
+    
+    shift()
+    _rotate()
+    
+End
