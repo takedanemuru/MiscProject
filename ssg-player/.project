@@ -1,9 +1,9 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.7.1
+# Compiled with Gambas 3.8.3
 Title=ssg-player
 Startup=Kyon
 Icon=Pictures/cover170x170.jpeg
-Version=42.1.4
+Version=42.2.5
 Component=gb.image
 Component=gb.qt4
 Component=gb.form
@@ -26,10 +26,11 @@ Vendor=Integrated Data Thought Entity
 Address=takeda.nemuru@yandex.com
 Url=http://takedanemuru.github.io/
 License=S.O.S. License
-PackageName=ssg-player-42.1.4
+PackageName=ssg-player-42.2.5
 CreateEachDirectory=1
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Applications/Sound"
 Categories=ubuntu:"Music;Network"
 Groups=ubuntu:"net"
+ExtraFiles=ubuntu:"ssg-player.png\t/usr/share/pixmaps"

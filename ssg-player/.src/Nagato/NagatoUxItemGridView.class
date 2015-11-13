@@ -12,7 +12,7 @@ Public Sub _InitializeGridView(argContainer As Container)
 
     With Me._$gridView
         .Expand = True
-        .ScrollBar = Scroll.Vertical
+        .ScrollBar = Scroll.None
         .Header = GridView.Horizontal
         .Grid = False
         .Mode = Select.Single
@@ -39,5 +39,17 @@ Public Sub _SetBackGround()
     For yukiIndex = 0 To Me._$gridView.Columns.Max
         Me._$gridView[Me._$gridView.Rows.Max, yukiIndex].Background = MikuruColor.Light
     Next
+    
+End
+
+Public Sub GridView_Enter()
+    
+    Me._$gridView.ScrollBar = Scroll.Vertical
+    
+End
+
+Public Sub GridView_Leave()
+    
+    Me._$gridView.ScrollBar = Scroll.None
     
 End

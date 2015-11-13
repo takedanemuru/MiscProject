@@ -19,7 +19,7 @@ Private Sub setForm()
     With Me
         .Title = Subst$("(#&1)  &2", $api.Number, $api.SafeTitle)
         If .Closed Then .Show()
-        '.Center() ' doesn't work correctlly. why ?
+        .Center() ' doesn't work correctlly. why ?
         Me.X = (Screen.W - $api.W) Div 2
         Me.Y = (Screen.H - $api.H) Div 2
     End With
@@ -39,7 +39,7 @@ Private Sub selectEpisode()
 End
 
 Public Sub Start()
-
+    
     $api.GetCurrent()
 
 End
