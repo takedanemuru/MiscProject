@@ -20,7 +20,7 @@ Private Sub paintText()
     With $rectangle
         Paint.Brush = Paint.Color(Color.White)
         Paint.Font.Size = 20
-        Paint.RichText($clockText(), .X, .Y, .Width, .Height, Align.Center)
+        Paint.DrawRichText($clockText(), .X, .Y, .Width, .Height, Align.Center)
         Paint.Fill()
     End With
     

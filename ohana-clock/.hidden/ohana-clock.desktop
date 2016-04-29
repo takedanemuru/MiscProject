@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=ohana-clock
+Comment=Matsumae Ohana Clock.
+Exec=/usr/bin/ohana-clock
+Icon=/usr/share/pixmaps/ohana-clock.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;Utility;
