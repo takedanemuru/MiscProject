@@ -2,14 +2,13 @@ Kyon
 ohana-clock
 0
 0
-42.4.3
+42.5.4
 
 gb.image
-gb.qt4
+gb.qt5
 gb.form
 gb.desktop.x11
 gb.desktop
 gb.settings
 gb.form.stock
-gb.qt4.ext
 

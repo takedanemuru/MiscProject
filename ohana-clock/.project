@@ -1,29 +1,27 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.8.90
+# Compiled with Gambas 3.8.4
 Title=ohana-clock
 Startup=Kyon
 Icon=Pictures/ohana_clockface.png
-Version=42.4.3
+Version=42.5.4
 Component=gb.image
-Component=gb.qt4
+Component=gb.qt5
 Component=gb.form
 Component=gb.desktop.x11
 Component=gb.desktop
 Component=gb.settings
 Component=gb.form.stock
-Component=gb.qt4.ext
 Description="Matsumae Ohana Clock."
 Authors="takeda.nemuru <takeda.nemuru@yandex.com>"
 TabSize=4
 Translate=1
 Language=ja
 Maintainer=takeda.nemuru
-Vendor=colonel-in-cheese
+Vendor=IntegratedDatathoughtEntities
 Address=takeda.nemuru@yandex.com
 Url=http://takedanemuru.github.io/
 License=S.O.S. License
-PackageName=ohana-clock-42.4.3
-CreateEachDirectory=1
+PackageName=ohana-clock-42.5.4
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Applications/System/Administration"

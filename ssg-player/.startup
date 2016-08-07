@@ -2,10 +2,10 @@ Kyon
 ssg-player
 0
 0
-42.2.5
+42.5.7
 
 gb.image
-gb.qt4
+gb.qt5
 gb.form
 gb.desktop.x11
 gb.desktop
@@ -14,6 +14,5 @@ gb.net
 gb.net.curl
 gb.media
 gb.net.smtp
-gb.qt4.ext
 gb.xml
 
