@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=nekomimi-clock
+Comment=a simple charactor clock
+Exec=/usr/bin/nekomimi-clock
+Icon=/usr/share/pixmaps/nekomimi-clock.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;

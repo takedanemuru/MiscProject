@@ -1,30 +1,30 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.5.4
+# Compiled with Gambas 3.8.4
 Title=nekomimi-clock
 Startup=FMain
 Icon=pictures/icon.jpg
-Version=0.2.0
+Version=42.5.3
 Component=gb.image
-Component=gb.qt4
+Component=gb.qt5
 Component=gb.form
 Component=gb.settings
 Component=gb.image.effect
-Component=gb.qt4.ext
 Component=gb.sdl.sound
 Description="a simple charactor clock"
+Authors="takeda.nemuru <takeda.nemuru@yandex.com>"
 TabSize=4
 Translate=1
 Language=ja
 Maintainer=takeda.nemuru
-Vendor=n.labs
-Address=takeda.nemuru@gmail.com
-Url=http://bloominabc.blogspot.jp/
-License=General Public License
-PackageName=nekomimi-clock-0.2.0
+Vendor=IntegratedDataThoughtEntities
+Address=takeda.nemuru@yandex.com
+Url=https://takedanemuru.github.io
+License=S.O.S. License
+PackageName=nekomimi-clock-42.5.3
 PackageVersion=2
-CreateEachDirectory=1
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Games/Toys"
 Categories=ubuntu:"Nagato;Utility"
 Groups=ubuntu:"utils"
+ExtraFiles=ubuntu:"nekomimi-clock.desktop\t/usr/share/applications\nnekomimi-clock.png\t/usr/share/pixmaps"

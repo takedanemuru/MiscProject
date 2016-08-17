@@ -1,13 +1,12 @@
-FMain
+HaruhiMain
 tetris-study
 0
 0
-0.3.0
+42.5.2
 
 gb.image
-gb.qt4
+gb.qt5
 gb.form
 gb.settings
-gb.qt4.ext
 gb.sdl.sound
 

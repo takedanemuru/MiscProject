@@ -2,10 +2,10 @@ Kyon
 xkcd-reader
 0
 0
-0.2.1
+42.5.3
 
 gb.image
-gb.qt4
+gb.qt5
 gb.form
 gb.desktop.x11
 gb.desktop
@@ -13,6 +13,5 @@ gb.settings
 gb.image.effect
 gb.net
 gb.net.curl
-gb.qt4.ext
 gb.web
 

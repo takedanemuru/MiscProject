@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=haramaru-radio-player
+Comment=Haramaru Radio (an internet radio by Hara Yumi) player/downloader.
+Exec=/usr/bin/haramaru-radio-player
+Icon=/usr/share/pixmaps/haramaru-radio-player.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Audio;Music;Network;

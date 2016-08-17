@@ -1,3 +1,9 @@
+* Mon Aug 08 2016 takedanemuru <takeda.nemuru@yandex.com> 42.5.3
+- new : pixmap icon
+
+* Mon Aug 08 2016 takedanemuru <takeda.nemuru@yandex.com> 42.5.2
+- drop qt4 dependencies
+
 * Sun Jun 21 2015 takedanemuru <takeda.nemuru@yandex.com> 0.2.0
 - new: new dialogs.
 

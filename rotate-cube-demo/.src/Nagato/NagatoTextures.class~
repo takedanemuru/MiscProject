@@ -8,7 +8,7 @@ Private Sub initializeTexture(argImagePath As String)
     
     Gl.Enable(gl.TEXTURE_2D) 
     $textures = Gl.GenTextures(1)
-    Gl.BindTexture(Gl.TEXTURE_2D, $textures[0])
+    Gl.BindTexture(Gl.TEXTURE_2D, $textures[$index])
     Gl.TexImage2D(yukiImage)
     Glu.Build2DMipmaps(yukiImage)
     Gl.TexParameteri(Gl.TEXTURE_2D, Gl.TEXTURE_MIN_FILTER, Gl.LINEAR_MIPMAP_NEAREST)

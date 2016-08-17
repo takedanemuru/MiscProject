@@ -1,6 +1,7 @@
 ' Gambas class file
 
 Private $textures As New Integer[1]
+Private $index As Integer
 
 Private Sub initializeTexture(argImagePath As String)
     

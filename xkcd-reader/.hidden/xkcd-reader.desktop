@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=xkcd-reader
+Comment=xkcd reader.
+Exec=/usr/bin/xkcd-reader
+Icon=/usr/share/pixmaps/xkcd-reader.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Graphics;

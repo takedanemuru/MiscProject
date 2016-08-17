@@ -6,12 +6,13 @@ Count=0
 
 [OpenFile]
 File[1]=".src/Haruhi/HaruhiMain.form"
-Active=1
+Active=6
 File[2]=".src/Haruhi/HaruhiMain.class:23.20"
-Count=5
+Count=6
 File[3]=".src/Nagato/NagatoSurface.class:4.25"
 File[4]=".src/Nagato/NagatoRadioPlayer.class:0.0"
 File[5]=".src/Nagato/NagatoDrawingArea.class:8.31"
+File[6]="Pictures/radio.jpg"
 
 [Watches]
 Count=0
