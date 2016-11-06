@@ -1,9 +1,9 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.8.4
+# Compiled with Gambas 3.9.1
 Title=rotate-cube-demo
 Startup=Kyon
-Icon=Pictures/cube.png
-Version=42.5.1
+Icon=Pictures/rotate-cube-demo.png
+Version=42.6.2
 Component=gb.image
 Component=gb.image.io
 Component=gb.sdl
@@ -12,16 +12,17 @@ Component=gb.opengl.glu
 Component=gb.sdl.sound
 Description="openGL demo"
 Authors="takeda.nemuru <takeda.nemuru@yandex.com>"
-Arguments="Example19"
+Arguments=[["Example19"]]
+CurrentArgument=0
 TabSize=4
 Translate=1
 Language=en
 Maintainer=takedanemuru
-Vendor=Integrated Data Thought Entity
+Vendor=IntegratedDataThoughtEntities
 Address=takeda.nemuru@yandex.com
 Url=http://takedanemuru.github.io
 License=S.O.S. License
-PackageName=rotate-cube-demo-42.5.1
+PackageName=rotate-cube-demo-42.6.2
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Applications/Graphics"

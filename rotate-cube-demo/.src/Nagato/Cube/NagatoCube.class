@@ -52,6 +52,7 @@ End
 Public Sub Initialize()
     
     $textures.Initialize("Pictures/headphones.png")
+    '$textures.Initialize("Pictures/yukata.png")
     $rotation = New NagatoCubeRotation
     
 End

@@ -5,7 +5,7 @@ Count=0
 Count=0
 
 [OpenFile]
-Active=2
+Active=1
 File[1]=".src/Kyon.module:0.7"
 Count=2
 File[2]="Picture/piq_16586_400x400.png"

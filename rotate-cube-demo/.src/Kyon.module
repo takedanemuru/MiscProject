@@ -4,9 +4,8 @@ Public Title As String
 
 Public Sub Main()
 
-    Dim yukiObject As Object
+    Dim yukiObject As New NagatoExample6
 
-    yukiObject = New NagatoExample6
     yukiObject.Main()
 
 End

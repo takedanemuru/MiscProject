@@ -5,15 +5,13 @@ Count=0
 Count=0
 
 [OpenFile]
-File[1]=".src/Kyon.module:0.12"
-File[2]=".src/Nagato/NagatoExample.class:19.15"
+File[1]=".src/Kyon.module:0.8"
+File[2]=".src/Nagato/NagatoExample.class:0.20"
 File[3]=".src/Nagato/NagatoExample6.class:19.0"
-File[4]=".src/Nagato/Cube/NagatoCube.class:19.0"
+File[4]=".src/Nagato/Cube/NagatoCube.class:5.55"
 Active=5
-File[5]=".src/Nagato/NagatoTextures.class:0.4"
-File[6]=".src/Nagato/NagatoUniqueIndex.class:11.0"
-Count=7
-File[7]="Pictures/cube.png"
+File[5]="doc/document.md:0.1"
+Count=5
 
 [Watches]
 Count=0

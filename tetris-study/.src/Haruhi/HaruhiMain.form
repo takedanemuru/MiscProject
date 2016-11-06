@@ -6,9 +6,15 @@
   Icon = Picture["ksirtet.png"]
   Picture = Picture["with_bird.jpg"]
   Resizable = False
-  { !DrawingArea1 DrawingArea
-    MoveScaled(0,0,45.7143,57.1429)
-    #Public = True
-    NoBackground = True
+  Arrangement = Arrange.Fill
+  { VBox1 VBox
+    MoveScaled(2,2,42,36)
+    Expand = True
+    { !DrawingArea1 DrawingArea
+      MoveScaled(0,0,45.7143,57.1429)
+      #Public = True
+      Expand = True
+      NoBackground = True
+    }
   }
 }

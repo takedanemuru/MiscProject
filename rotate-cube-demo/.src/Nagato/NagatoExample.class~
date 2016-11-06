@@ -1,8 +1,5 @@
 ' Gambas class file
 
-'To set up opengl window in Gambas choose New Project -> SDL Application
-' mark OpenGL Programming in Settings, give it a name and that 's it.
-
 Public _$screen As New Window(True) As "Screen"
 
 Public Sub _Initialize()
@@ -17,7 +14,6 @@ Public Sub Main()
         .Text = "rotate-cube"
         .Width = 640
         .Height = 480
-        ' .FullScreen = True
         .Show()
     End With
 

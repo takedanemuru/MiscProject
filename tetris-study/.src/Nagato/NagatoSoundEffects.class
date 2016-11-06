@@ -5,27 +5,27 @@ Private $soundEnd As Sound
 Private $soundKick As Sound
 
 Public Sub _new()
-        
-        $soundSucsess = New Sound("success.wav")
-        $soundEnd = New Sound("end-bell.wav")
-        $soundKick = New Sound("kick.wav")
-        
+    
+    $soundSucsess = Sound.Load("success.wav")
+    $soundEnd = Sound.Load("end-bell.wav")
+    $soundKick = Sound.Load("kick.wav")
+    
 End
 
 Public Sub Success()
         
-        $soundSucsess.Play()
+    $soundSucsess.Play()
         
 End
 
 Public Sub EndBell()
         
-        $soundEnd.Play()
+    $soundEnd.Play()
         
 End
 
 Public Sub Kick()
         
-        $soundKick.Play()
+    $soundKick.Play()
         
 End
