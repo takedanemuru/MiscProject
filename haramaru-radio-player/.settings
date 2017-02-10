@@ -6,11 +6,12 @@ Count=0
 
 [OpenFile]
 File[1]=".src/Haruhi/HaruhiMain.form"
-Active=4
+Active=5
 File[2]=".src/Haruhi/HaruhiMain.class:63.10"
 File[3]=".src/Nagato/NagatoMediaPlayer.class:31.4"
-Count=4
+Count=5
 File[4]=".src/Nagato/NagatoUxContainerPlayer.class:17.49"
+File[5]="doc/document.md:33.3"
 
 [Watches]
 Count=0

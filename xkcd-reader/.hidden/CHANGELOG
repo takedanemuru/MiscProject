@@ -1,3 +1,13 @@
+* Fri Feb 10 2017 takedanemuru <takeda.nemuru@yandex.com> 42.7.6
+- bugfix release. currently httpclient cannot access to api, but why ?
+
+* Tue Nov 15 2016 takedanemuru <takeda.nemuru@yandex.com> 42.6.5
+- fix desktop entry
+- fix category
+
+* Wed Nov 09 2016 takedanemuru <takeda.nemuru@yandex.com> 42.6.4
+- add screenshot
+
 * Mon Aug 08 2016 takedanemuru <takeda.nemuru@yandex.com> 42.5.3
 - new : pixmap icon
 

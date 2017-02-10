@@ -32,7 +32,7 @@ Public Sub _new(argParent As Form)
     addMenuItem(("Medium"), MenuSize300, MikuruIcons.GetCheckIcon(NagatoSettings.Size = 300))
     addMenuItem(("Small"), MenuSize200, MikuruIcons.GetCheckIcon(NagatoSettings.Size = 200))
         addMenuItem("", MenuNone)
-    addMenuItem(("Skip Taskbar"), MenuSkipTaskBar, MikuruIcons.GetCheckIcon(HaruhiMain.SkipTaskbar))
+    'addMenuItem(("Skip Taskbar"), MenuSkipTaskBar, MikuruIcons.GetCheckIcon(HaruhiMain.SkipTaskbar))
     addMenuItem(("Sticky"), MenuSticky, MikuruIcons.GetCheckIcon(HaruhiMain.Sticky))
         addMenuItem("", MenuNone)
     addMenuItem(("About"), MenuAbout, MikuruIcons["star"])
@@ -46,8 +46,8 @@ Public Sub MenuItem_Click()
     Select Case Last.Tag
         Case MenuSize200, MenuSize300, MenuSize400
             NagatoSettings.Size = Last.Tag
-        Case MenuSkipTaskBar
-             HaruhiMain.SkipTaskbar = Not HaruhiMain.SkipTaskbar
+        ' Case MenuSkipTaskBar
+        '      HaruhiMain.SkipTaskbar = Not HaruhiMain.SkipTaskbar
         Case MenuSticky
             HaruhiMain.Sticky = Not HaruhiMain.Sticky
         Case MenuAbout

@@ -1,3 +1,10 @@
+* Tue Nov 15 2016 takeda.nemuru <takeda.nemuru@yandex.com> 42.6.6
+- fix desktop entry
+
+* Wed Nov 09 2016 takeda.nemuru <takeda.nemuru@yandex.com> 42.6.5
+- reduce icon size
+- add doc
+
 * Sun Aug 07 2016 takeda.nemuru <takeda.nemuru@yandex.com> 42.5.4
 - drop qt4 dependencies
 
