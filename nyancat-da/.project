@@ -1,9 +1,9 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.9.1
+# Compiled with Gambas 3.9.2
 Title=nyancat-da
 Startup=Kyon
 Icon=Picture/icon.png
-Version=42.6.6
+Version=42.8.6
 Description="nyancat da !!"
 Authors="takeda.nemuru@yandex.com"
 TabSize=4
@@ -13,8 +13,7 @@ Vendor=IntegratedDataThoughtEntities
 Address=takeda.nemuru@yandex.com
 Url=http://takedanemuru.github.io/
 License=S.O.S. License
-PackageName=nyancat-da-42.6.6
-PackageVersion=2
+PackageName=nyancat-da-42.8.6
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Games/Toys"

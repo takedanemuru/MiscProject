@@ -1,9 +1,9 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.9.1
+# Compiled with Gambas 3.9.2
 Title=rotate-cube-demo
 Startup=Kyon
 Icon=Pictures/rotate-cube-demo.png
-Version=42.6.2
+Version=42.8.2
 Component=gb.image
 Component=gb.image.io
 Component=gb.sdl
@@ -22,7 +22,7 @@ Vendor=IntegratedDataThoughtEntities
 Address=takeda.nemuru@yandex.com
 Url=http://takedanemuru.github.io
 License=S.O.S. License
-PackageName=rotate-cube-demo-42.6.2
+PackageName=rotate-cube-demo-42.8.2
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Applications/Graphics"

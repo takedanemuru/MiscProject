@@ -11,7 +11,6 @@ Private Const ApiCurrent As String = "http://xkcd.com/info.0.json"
 Private Const ApiSelect As String = "http://xkcd.com/&1/info.0.json"
 
 Private $imageDownloader As New NagatoImageDownloader As "ImageDownloader"
-'Private $xkcdDownloader As New NagatoXkcdDownloader As "XkcdDownloader"
 
 Private $collection As Collection
 

@@ -1,9 +1,9 @@
 # Gambas Project File 3.0
-# Compiled with Gambas 3.8.4
+# Compiled with Gambas 3.9.2
 Title=nekomimi-clock
 Startup=FMain
 Icon=pictures/icon.jpg
-Version=42.5.3
+Version=42.8.3
 Component=gb.image
 Component=gb.qt5
 Component=gb.form
@@ -20,7 +20,7 @@ Vendor=IntegratedDataThoughtEntities
 Address=takeda.nemuru@yandex.com
 Url=https://takedanemuru.github.io
 License=S.O.S. License
-PackageName=nekomimi-clock-42.5.3
+PackageName=nekomimi-clock-42.8.3
 PackageVersion=2
 Packager=1
 Systems=ubuntu
