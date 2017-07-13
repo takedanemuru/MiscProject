@@ -1,3 +1,6 @@
+* Tue Jul 11 2017 takeda-nemuru <takeda.nemuru@gmail.com> 42.9.4
+- bump version for Endless_Journey
+
 * Tue Oct 04 2016 takeda-nemuru <takeda.nemuru@gmail.com> 42.6.3
 - fix : drop sdl1 dependencies
 

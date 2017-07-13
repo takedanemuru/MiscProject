@@ -5,12 +5,13 @@ Count=0
 Count=0
 
 [OpenFile]
-Count=4
+Count=5
 File[1]=".src/Nagato/NagatoSurface.class:17.4"
 File[2]=".src/Nagato/NagatoPaintPoints.class:17.0"
 File[3]=".src/Nagato/NagatoMenu.class:30.48"
-Active=4
+Active=5
 File[4]=".hidden/ohana-clock.desktop:0.10"
+File[5]=".src/Nagato/NagatoClockText.class:0.45"
 
 [Watches]
 Count=0

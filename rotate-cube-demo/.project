@@ -3,7 +3,7 @@
 Title=rotate-cube-demo
 Startup=Kyon
 Icon=Pictures/rotate-cube-demo.png
-Version=42.8.2
+Version=42.9.3
 Component=gb.image
 Component=gb.image.io
 Component=gb.sdl
@@ -22,7 +22,7 @@ Vendor=IntegratedDataThoughtEntities
 Address=takeda.nemuru@yandex.com
 Url=http://takedanemuru.github.io
 License=S.O.S. License
-PackageName=rotate-cube-demo-42.8.2
+PackageName=rotate-cube-demo-42.9.3
 Packager=1
 Systems=ubuntu
 Menus=ubuntu:"Applications/Graphics"

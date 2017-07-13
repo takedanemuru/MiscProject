@@ -2,7 +2,7 @@
 
 { Form Form
   MoveScaled(0,0,50,50)
-  Icon = Picture["Pictures/xkcd_hat_guy.gif"]
+  Icon = Picture["pictures/hat_guy.png"]
   Resizable = False
   Arrangement = Arrange.Vertical
   AutoResize = True

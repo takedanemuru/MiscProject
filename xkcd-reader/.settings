@@ -8,9 +8,10 @@ Count=0
 File[1]=".src/Kyon.module:0.6"
 File[2]=".src/Haruhi/HaruhiMain.class:3.44"
 File[3]=".src/Nagato/NagatoXkcdApi.class:0.79"
-Active=3
-Count=4
+Active=5
+Count=5
 File[4]=".src/Nagato/NagatoDownloader.class:0.47"
+File[5]=".src/Haruhi/HaruhiMain.form"
 
 [Watches]
 Count=0

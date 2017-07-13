@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rotate-cube-demo 3.9.2\n"
-"POT-Creation-Date: 2017-04-03 23時50 UTC\n"
+"POT-Creation-Date: 2017-07-01 03時42 UTC\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
